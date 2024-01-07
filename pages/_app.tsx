@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Dinosaurs 'r' Us</title>
+        <title>blockScapes</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <ConnectionProvider endpoint={endpoint}>
