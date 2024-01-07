@@ -61,14 +61,14 @@ export default function mint() {
     <img src="./images/ap_ex.png" width="50%" />
     <div className="flex flex-col gap-10 items-center">
     <PageHeading>Gucci Man </PageHeading>
-    <p className="text-white text-sm">
-      Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci
+    <p className="text-white text-sm text-indent: 20px">
+    This project uses 2021 Census Data and ACS Data (American Community Survey) to get shape and socioeconomic data on all 73,057 census tracts in the United States. This data is used to construct a generative collection of 3,143 generative artworks, one artwork per county in the United States. This collection hopes to explore the issues involved with trying to represent or visualize such a wide body of people and range of land using this data.
       </p>
       <p className="text-white text-sm">
-      Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci
+      All artworks are produced generatively in p5.js using the FIPS county code as the seed for randomness. All artworks and the associated code for image generation are stored immutably on Arweave (links can be found on twitter, or on-chain). 
       </p>
       <p className="text-white text-sm">
-      Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci
+      Mints will be priced at .03 per piece, with a max mint amount of 5 per wallet. As mentioned there is one piece per county in the US, making a total collection size of 3,143.
       </p>
       <div className="flex flex-row gap-10">
        <button type="button" className=" text-5xl text-indigo-700" onClick={incrementMint}>+</button>

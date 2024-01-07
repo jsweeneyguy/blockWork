@@ -48,25 +48,27 @@ export default function Home() {
       <video autoPlay loop muted>
       <source  src="./videos/video.mp4" type="video/mp4" />
       </video>
-      <PageHeading>Welcome to blockScapes : About Us</PageHeading>
+      <PageHeading>Welcome to blockScapes : About</PageHeading>
       <p className="text-white text-sm">
-      Feel free to customize the styles in the CSS file to match your site's design. The provided styles demonstrate how to center the icons horizontally and vertically, add spacing between icons, and change the color on hover. Adjust these styles based on your specific requirements.
+      Once an artist finishes a work it exists in the world of its own right and an artist cannot interpret their creation on behalf of the viewer or tell another heart what to feel. With that philosophy in mind blockScapes will primarily be a series of abstract generative art collections rendered using applied data and/or algorithms in p5.js. However, that said, each collection will use applied real world data or algorithms to explore a wide array of topics in math, science, and culture. The first release, American Problems, will explore the census tract data used to construct our counties and determine the well-being of our neighborhoods. The next release, a blockScapes self-titled collection, will look into visualizing landscapes in deep time. More to come in the future.
       </p>
-
-      <PageHeading>Upcoming Mint : The Gucci Man</PageHeading>
+      <p className="text-white text-sm">
+      Where I plan to remain anonymous (for now) I will say that I am a data scientist based in Chicago working in Financial Services. I have been around in the crypto space since 2021 working as a freelance solidity developer and moonlighting as a degen trader. My generative art experience is mixed mostly amongst p5.js/processing and blender. I hope you enjoy, follow the twitter for more. 
+      </p>
+      <PageHeading>Upcoming Mint : American Problems</PageHeading>
       <div className="flex flex-row gap-10">
       <div className="flex flex-col gap-8">
       <img src="./images/ap_ex.png"/>
     </div>
     <div className="flex flex-col gap-10 md:px-10 10 width-50%">
       <p className="text-white text-sm">
-      Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci
+      This project uses 2021 Census Data and ACS Data (American Community Survey) to get shape and socioeconomic data on all 73,057 census tracts in the United States. This data is used to construct a generative collection of 3,143 generative artworks, one artwork per county in the United States. This collection hopes to explore the issues involved with trying to represent or visualize such a wide body of people and range of land using this data.
       </p>
       <p className="text-white text-sm">
-      Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci
+      All artworks are produced generatively in p5.js using the FIPS county code as the seed for randomness. All artworks and the associated code for image generation are stored immutably on Arweave (links can be found on twitter, or on-chain).
       </p>
       <p className="text-white text-sm">
-      Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci gucci gucci gucci gucci gucci gucci gucci Gucci gucci
+      Mints will be priced at .03 per piece, with a max mint amount of 5 per wallet. As mentioned there is one piece per county in the US, making a total collection size of 3,143. 
       </p>
         <a href="/mint">
         <button 
